@@ -1,20 +1,10 @@
-#navBar {
-  transition: 0.25s ease-in-out;
-}
-
-#navBar:hover {
-  opacity: 70%;
-}
-
 .aboutLink {
   text-decoration: none;
   margin-left: 2rem;
   color: #fff;
-  transition: 0.25s ease-in-out;
 }
 
 .aboutLink:hover {
   text-decoration: none;
   color: #fff;
-  opacity: 70%;
 }

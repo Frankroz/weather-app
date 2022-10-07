@@ -8,7 +8,7 @@ function Nav({ onSearch }) {
   return (
     <nav className="navbar navbar-dark navbar-expand-lg navbar-expand-md navbar-expand-sm bg-dark">
       <div className="container-fluid">
-        <Link to="/" className="navbar-brand" id="navBar">
+        <Link to="/" className="navbar-brand">
           <img
             style={{ marginRight: "30px" }}
             src={Logo}
