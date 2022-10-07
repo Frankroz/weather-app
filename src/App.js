@@ -26,7 +26,7 @@ export default function App() {
     }
 
     fetch(
-      `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`
+      `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`
     )
       .then((r) => r.json())
       .then((r) => {
