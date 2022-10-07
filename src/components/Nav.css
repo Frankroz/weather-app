@@ -3,7 +3,7 @@
 }
 
 .navbar-brand {
-  color: #fff;
+  transition: 0.25s ease-in-out;
 }
 
 .navbar-brand:hover {
@@ -11,7 +11,7 @@
 }
 
 .aboutLink {
-  color: #fff;
+  transition: 0.25s ease-in-out;
 }
 
 .aboutLink:hover {
