@@ -9,7 +9,7 @@ export default function City({ city }) {
       </div>
     );
   }
-  console.log(city);
+  
   return (
     <div className="ciudad">
       <div className="container">

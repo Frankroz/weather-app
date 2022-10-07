@@ -1,6 +1,6 @@
 body{
-  --text-color: #fff;
-  --bg-color: #080809;
+  --text-color: #080809;
+  --bg-color: #fff;
   background-color: var(--bg-color);
 }
 .App {

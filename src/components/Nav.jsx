@@ -8,9 +8,9 @@ function Nav({ onSearch }) {
   return (
     <nav className="navbar navbar-dark navbar-expand-lg navbar-expand-md navbar-expand-sm bg-dark">
       <div className="container-fluid">
-        <Link to="/" className="navbar-brand">
+        <Link to="/" className="navbar-brand" id="navBar">
           <img
-            style={{ marginRight: "20px" }}
+            style={{ marginRight: "30px" }}
             src={Logo}
             width="30"
             height="30"
@@ -21,13 +21,8 @@ function Nav({ onSearch }) {
         </Link>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
-            <Link to="/about" style={{ textDecoration: "none" }}>
-              <span
-                className="nav-link active aboutLink"
-                style={{ marginTop: "2px" }}
-              >
-                About
-              </span>
+            <Link to="/about" className="aboutLink">
+              <span>About</span>
             </Link>
           </div>
         </div>
