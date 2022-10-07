@@ -1,0 +1,24 @@
+.label-container{
+    display: flex;
+    margin-top: 0.3rem;
+    margin-right: 2px;
+    margin-left: 5px;
+    color: #fff;
+
+}
+
+.label-img {
+    margin: 0.5rem;
+    margin-top: 0.8rem;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.label-text {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin: 0.2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}

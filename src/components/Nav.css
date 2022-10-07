@@ -1,0 +1,19 @@
+#logoHenry {
+  margin-right: 20px;
+}
+
+.navbar-brand {
+  color: #fff;
+}
+
+.navbar-brand:hover {
+  opacity: 70%;
+}
+
+.aboutLink {
+  color: #fff;
+}
+
+.aboutLink:hover {
+  opacity: 70%;
+}

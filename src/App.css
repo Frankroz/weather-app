@@ -1,0 +1,13 @@
+body{
+  --text-color: #fff;
+  --bg-color: #080809;
+  background-color: var(--bg-color);
+}
+.App {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
